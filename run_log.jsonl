@@ -83,3 +83,207 @@
 {"timestamp": "2026-11-15T10:41:12.911309+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Self-guided local food walk in Kyoto", "cost": 10.0, "approved": true, "remaining_before": 20.0}
 {"timestamp": "2026-11-15T10:41:12.911318+00:00", "agent": "budget_worker", "action": "get_budget_report", "budget": 900.0, "spent": 890.0, "remaining": 10.0}
 {"timestamp": "2026-11-15T10:41:12.911333+00:00", "agent": "planner_manager", "action": "itinerary_built", "total": 890.0}
+{"timestamp": "2026-11-15T11:01:54.466703+00:00", "agent": "planner_manager", "action": "request_accepted", "request": {"origin": "Boston", "destination": "Kyoto", "days": 3, "budget": 900.0, "interests": ["culture", "food", "nature"], "travelers": 2}}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "flight_worker", "action": "search_flights", "options": 3}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Premium direct flight: Boston to Kyoto (round trip)", "cost": 1800.0, "approved": false, "remaining_before": 900.0}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 2}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Standard one-stop flight: Boston to Kyoto (round trip)", "cost": 960.0, "approved": false, "remaining_before": 900.0}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 1}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Economy advance fare flight: Boston to Kyoto (round trip)", "cost": 560.0, "approved": true, "remaining_before": 900.0}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "hotel_worker", "action": "search_hotels", "options": 3}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Central comfort hotel in Kyoto (2 nights)", "cost": 480.0, "approved": false, "remaining_before": 340.0}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "hotel", "day": null}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "hotel_worker", "action": "find_cheaper_hotels", "options": 2}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Neighborhood guesthouse in Kyoto (2 nights)", "cost": 260.0, "approved": true, "remaining_before": 340.0}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 1, "options": 4}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local Food Walk in Kyoto", "cost": 90.0, "approved": false, "remaining_before": 80.0}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "activity_day_1", "day": 1}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "activity_worker", "action": "find_cheaper_activities", "day": 1, "options": 3}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Small-group local food walk in Kyoto", "cost": 30.0, "approved": true, "remaining_before": 80.0}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 2, "options": 4}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local Food Walk in Kyoto", "cost": 90.0, "approved": false, "remaining_before": 50.0}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "activity_day_2", "day": 2}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "activity_worker", "action": "find_cheaper_activities", "day": 2, "options": 3}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Small-group local food walk in Kyoto", "cost": 30.0, "approved": true, "remaining_before": 50.0}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 3, "options": 4}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local Food Walk in Kyoto", "cost": 90.0, "approved": false, "remaining_before": 20.0}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "activity_day_3", "day": 3}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "activity_worker", "action": "find_cheaper_activities", "day": 3, "options": 3}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Small-group local food walk in Kyoto", "cost": 30.0, "approved": false, "remaining_before": 20.0}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "activity_day_3", "day": 3}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "activity_worker", "action": "find_cheaper_activities", "day": 3, "options": 2}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Self-guided local food walk in Kyoto", "cost": 10.0, "approved": true, "remaining_before": 20.0}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "budget_worker", "action": "get_budget_report", "budget": 900.0, "spent": 890.0, "remaining": 10.0}
+{"timestamp": "2026-11-15T11:01:54.469851+00:00", "agent": "planner_manager", "action": "itinerary_built", "total": 890.0}
+{"timestamp": "2026-11-18T08:23:48.599544+00:00", "agent": "planner_manager", "action": "request_accepted", "request": {"origin": "Boston", "origin_airport": "BOS", "destination": "Kyoto", "destination_airport": "KIX", "days": 4, "budget": 2500.0, "interests": ["Culture", "Food"], "travelers": 2, "currency": "USD", "food_budget_per_person_per_day": 5.0, "transport_budget_per_person_per_day": 10.0, "departure_date": "2026-11-25", "return_date": "2026-11-28", "hotel_check_in": "2026-11-25", "hotel_check_out": "2026-11-28"}}
+{"timestamp": "2026-11-18T08:23:48.604241+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2500.0}
+{"timestamp": "2026-11-18T08:23:48.604271+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2490.0}
+{"timestamp": "2026-11-18T08:23:48.604681+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2470.0}
+{"timestamp": "2026-11-18T08:23:48.604705+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2460.0}
+{"timestamp": "2026-11-18T08:23:48.604725+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2440.0}
+{"timestamp": "2026-11-18T08:23:48.604734+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2430.0}
+{"timestamp": "2026-11-18T08:23:48.604741+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2410.0}
+{"timestamp": "2026-11-18T08:23:48.604748+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2400.0}
+{"timestamp": "2026-11-18T08:23:54.490999+00:00", "agent": "flight_worker", "action": "search_flights", "options": 5}
+{"timestamp": "2026-11-18T08:23:54.491113+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound Hainan BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 3886.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:23:54.491122+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:23:54.491128+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 0}
+{"timestamp": "2026-11-18T08:23:54.491134+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound Turkish Airlines BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 4395.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:23:54.491138+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:23:54.491142+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 1}
+{"timestamp": "2026-11-18T08:23:54.491147+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound Cathay Pacific BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 4580.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:23:54.491151+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:23:54.491155+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 2}
+{"timestamp": "2026-11-18T08:23:54.491159+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound American BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 4734.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:23:54.491162+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:23:54.491166+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 3}
+{"timestamp": "2026-11-18T08:23:54.491172+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound JAL BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 4745.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:23:54.491175+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:23:54.491179+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 4}
+{"timestamp": "2026-11-18T08:23:54.491185+00:00", "agent": "planner_manager", "action": "no_affordable_option", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:23:57.964425+00:00", "agent": "hotel_worker", "action": "search_hotels", "options": 18}
+{"timestamp": "2026-11-18T08:23:57.964625+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "小塩民宿", "cost": 180.0, "budgeted": true, "approved": true, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:24:00.116205+00:00", "agent": "activity_worker", "action": "search_interest", "interest": "Culture", "options": 20}
+{"timestamp": "2026-11-18T08:24:02.365951+00:00", "agent": "activity_worker", "action": "search_interest", "interest": "Food", "options": 20}
+{"timestamp": "2026-11-18T08:24:02.372889+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 1, "options": 32}
+{"timestamp": "2026-11-18T08:24:02.373027+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Kinkaku-ji", "cost": null, "budgeted": false, "approved": true, "remaining_before": 2200.0}
+{"timestamp": "2026-11-18T08:24:02.373173+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 2, "options": 31}
+{"timestamp": "2026-11-18T08:24:02.373192+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Fushimi Inari Taisha", "cost": null, "budgeted": false, "approved": true, "remaining_before": 2200.0}
+{"timestamp": "2026-11-18T08:24:02.373284+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 3, "options": 30}
+{"timestamp": "2026-11-18T08:24:02.373298+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Nishiki Market", "cost": null, "budgeted": false, "approved": true, "remaining_before": 2200.0}
+{"timestamp": "2026-11-18T08:24:02.373378+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 4, "options": 29}
+{"timestamp": "2026-11-18T08:24:02.373481+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "SAMURAI NINJA MUSEUM Kyoto", "cost": null, "budgeted": false, "approved": true, "remaining_before": 2200.0}
+{"timestamp": "2026-11-18T08:24:02.373558+00:00", "agent": "budget_worker", "action": "get_budget_report", "budget": 2500.0, "spent": 300.0, "remaining": 2200.0}
+{"timestamp": "2026-11-18T08:24:02.373636+00:00", "agent": "planner_manager", "action": "itinerary_built", "total": 300.0}
+{"timestamp": "2026-11-18T08:24:22.571659+00:00", "agent": "planner_manager", "action": "request_accepted", "request": {"origin": "Boston", "origin_airport": "BOS", "destination": "Kyoto", "destination_airport": "KIX", "days": 4, "budget": 2500.0, "interests": ["Culture", "Food"], "travelers": 2, "currency": "USD", "food_budget_per_person_per_day": 5.0, "transport_budget_per_person_per_day": 10.0, "departure_date": "2026-11-25", "return_date": "2026-11-28", "hotel_check_in": "2026-11-25", "hotel_check_out": "2026-11-28"}}
+{"timestamp": "2026-11-18T08:24:22.574171+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2500.0}
+{"timestamp": "2026-11-18T08:24:22.574188+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2490.0}
+{"timestamp": "2026-11-18T08:24:22.574197+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2470.0}
+{"timestamp": "2026-11-18T08:24:22.574204+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2460.0}
+{"timestamp": "2026-11-18T08:24:22.574213+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2440.0}
+{"timestamp": "2026-11-18T08:24:22.574220+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2430.0}
+{"timestamp": "2026-11-18T08:24:22.574228+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2410.0}
+{"timestamp": "2026-11-18T08:24:22.574235+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2400.0}
+{"timestamp": "2026-11-18T08:24:28.284489+00:00", "agent": "flight_worker", "action": "search_flights", "options": 5}
+{"timestamp": "2026-11-18T08:24:28.284642+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound Hainan BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 3886.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:24:28.284654+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:24:28.284663+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 0}
+{"timestamp": "2026-11-18T08:24:28.284672+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound Turkish Airlines BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 4395.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:24:28.284678+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:24:28.284684+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 1}
+{"timestamp": "2026-11-18T08:24:28.284691+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound Cathay Pacific BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 4580.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:24:28.284697+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:24:28.284703+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 2}
+{"timestamp": "2026-11-18T08:24:28.284709+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound American BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 4734.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:24:28.284714+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:24:28.284719+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 3}
+{"timestamp": "2026-11-18T08:24:28.284727+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound Korean Air BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 4744.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:24:28.284733+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:24:28.284739+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 4}
+{"timestamp": "2026-11-18T08:24:28.284749+00:00", "agent": "planner_manager", "action": "no_affordable_option", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:24:31.118937+00:00", "agent": "hotel_worker", "action": "search_hotels", "options": 18}
+{"timestamp": "2026-11-18T08:24:31.119719+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "小塩民宿", "cost": 180.0, "budgeted": true, "approved": true, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:24:33.294511+00:00", "agent": "activity_worker", "action": "search_interest", "interest": "Culture", "options": 20}
+{"timestamp": "2026-11-18T08:24:35.151181+00:00", "agent": "activity_worker", "action": "search_interest", "interest": "Food", "options": 20}
+{"timestamp": "2026-11-18T08:24:35.152603+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 1, "options": 30}
+{"timestamp": "2026-11-18T08:24:35.152691+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Kinkaku-ji", "cost": null, "budgeted": false, "approved": true, "remaining_before": 2200.0}
+{"timestamp": "2026-11-18T08:24:35.152826+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 2, "options": 29}
+{"timestamp": "2026-11-18T08:24:35.152850+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Fushimi Inari Taisha", "cost": null, "budgeted": false, "approved": true, "remaining_before": 2200.0}
+{"timestamp": "2026-11-18T08:24:35.152922+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 3, "options": 28}
+{"timestamp": "2026-11-18T08:24:35.152934+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Kyoto Samurai", "cost": null, "budgeted": false, "approved": true, "remaining_before": 2200.0}
+{"timestamp": "2026-11-18T08:24:35.153000+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 4, "options": 27}
+{"timestamp": "2026-11-18T08:24:35.153010+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Kiyomizu-dera", "cost": null, "budgeted": false, "approved": true, "remaining_before": 2200.0}
+{"timestamp": "2026-11-18T08:24:35.153042+00:00", "agent": "budget_worker", "action": "get_budget_report", "budget": 2500.0, "spent": 300.0, "remaining": 2200.0}
+{"timestamp": "2026-11-18T08:24:35.153090+00:00", "agent": "planner_manager", "action": "itinerary_built", "total": 300.0}
+{"timestamp": "2026-11-18T08:33:36.304911+00:00", "agent": "planner_manager", "action": "request_accepted", "request": {"origin": "Boston", "origin_airport": "BOS", "destination": "Kyoto", "destination_airport": "KIX", "days": 4, "budget": 2500.0, "interests": ["Culture", "Food"], "travelers": 2, "currency": "USD", "food_budget_per_person_per_day": 5.0, "transport_budget_per_person_per_day": 10.0, "departure_date": "2026-11-25", "return_date": "2026-11-28", "hotel_check_in": "2026-11-25", "hotel_check_out": "2026-11-28"}}
+{"timestamp": "2026-11-18T08:33:36.306799+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2500.0}
+{"timestamp": "2026-11-18T08:33:36.306813+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2490.0}
+{"timestamp": "2026-11-18T08:33:36.306819+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2470.0}
+{"timestamp": "2026-11-18T08:33:36.306823+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2460.0}
+{"timestamp": "2026-11-18T08:33:36.306828+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2440.0}
+{"timestamp": "2026-11-18T08:33:36.306832+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2430.0}
+{"timestamp": "2026-11-18T08:33:36.306837+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2410.0}
+{"timestamp": "2026-11-18T08:33:36.306842+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2400.0}
+{"timestamp": "2026-11-18T08:33:40.303871+00:00", "agent": "flight_worker", "action": "search_flights", "options": 5}
+{"timestamp": "2026-11-18T08:33:40.304093+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound Hainan BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 3886.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:33:40.304113+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:33:40.304126+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 0}
+{"timestamp": "2026-11-18T08:33:40.304139+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound Turkish Airlines BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 4395.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:33:40.304149+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:33:40.304158+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 1}
+{"timestamp": "2026-11-18T08:33:40.304168+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound Cathay Pacific BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 4580.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:33:40.304176+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:33:40.304184+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 2}
+{"timestamp": "2026-11-18T08:33:40.304194+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound American BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 4734.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:33:40.304201+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:33:40.304209+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 3}
+{"timestamp": "2026-11-18T08:33:40.304220+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound Korean Air BOS to KIX; return STARLUX Airlines KIX to BOS", "cost": 4744.0, "budgeted": true, "approved": false, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:33:40.304227+00:00", "agent": "planner_manager", "action": "replan_requested", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:33:40.304236+00:00", "agent": "flight_worker", "action": "find_cheaper_flights", "options": 4}
+{"timestamp": "2026-11-18T08:33:40.304249+00:00", "agent": "planner_manager", "action": "no_affordable_option", "category": "flight", "day": null}
+{"timestamp": "2026-11-18T08:33:43.621063+00:00", "agent": "hotel_worker", "action": "search_hotels", "options": 18}
+{"timestamp": "2026-11-18T08:33:43.621212+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "小塩民宿", "cost": 180.0, "budgeted": true, "approved": true, "remaining_before": 2380.0}
+{"timestamp": "2026-11-18T08:33:50.152462+00:00", "agent": "activity_worker", "action": "search_interest", "interest": "Culture", "options": 20}
+{"timestamp": "2026-11-18T08:33:52.398326+00:00", "agent": "activity_worker", "action": "search_interest", "interest": "Food", "options": 20}
+{"timestamp": "2026-11-18T08:33:52.398725+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 1, "options": 31}
+{"timestamp": "2026-11-18T08:33:52.398794+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Kinkaku-ji", "cost": null, "budgeted": false, "approved": true, "remaining_before": 2200.0}
+{"timestamp": "2026-11-18T08:33:52.398859+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 2, "options": 30}
+{"timestamp": "2026-11-18T08:33:52.398885+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Fushimi Inari Taisha", "cost": null, "budgeted": false, "approved": true, "remaining_before": 2200.0}
+{"timestamp": "2026-11-18T08:33:52.398936+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 3, "options": 29}
+{"timestamp": "2026-11-18T08:33:52.398943+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Kyoto Samurai", "cost": null, "budgeted": false, "approved": true, "remaining_before": 2200.0}
+{"timestamp": "2026-11-18T08:33:52.399026+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 4, "options": 28}
+{"timestamp": "2026-11-18T08:33:52.399034+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "SAMURAI NINJA MUSEUM Kyoto", "cost": null, "budgeted": false, "approved": true, "remaining_before": 2200.0}
+{"timestamp": "2026-11-18T08:33:52.399049+00:00", "agent": "budget_worker", "action": "get_budget_report", "budget": 2500.0, "spent": 300.0, "remaining": 2200.0}
+{"timestamp": "2026-11-18T08:33:52.399070+00:00", "agent": "planner_manager", "action": "itinerary_built", "total": 300.0}
+{"timestamp": "2026-11-23T08:23:38.492472+00:00", "agent": "planner_manager", "action": "request_accepted", "request": {"origin": "Boston", "origin_airport": "BOS", "destination": "Kyoto", "destination_airport": "KIX", "days": 4, "budget": 2500.0, "interests": ["Culture", "Food"], "travelers": 2, "currency": "USD", "food_budget_per_person_per_day": 10.0, "transport_budget_per_person_per_day": 10.0, "departure_date": "2026-11-30", "return_date": "2026-12-03", "hotel_check_in": "2026-11-30", "hotel_check_out": "2026-12-03"}}
+{"timestamp": "2026-11-23T08:23:38.494327+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2500.0}
+{"timestamp": "2026-11-23T08:23:38.494344+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2480.0}
+{"timestamp": "2026-11-23T08:23:38.494350+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2460.0}
+{"timestamp": "2026-11-23T08:23:38.494355+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2440.0}
+{"timestamp": "2026-11-23T08:23:38.494360+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2420.0}
+{"timestamp": "2026-11-23T08:23:38.494365+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2400.0}
+{"timestamp": "2026-11-23T08:23:38.494370+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2380.0}
+{"timestamp": "2026-11-23T08:23:38.494374+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 20.0, "budgeted": true, "approved": true, "remaining_before": 2360.0}
+{"timestamp": "2026-11-23T08:23:41.674276+00:00", "agent": "flight_worker", "action": "search_flights", "options": 5}
+{"timestamp": "2026-11-23T08:23:41.674433+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound United BOS to KIX; return Korean Air KIX to BOS", "cost": 2103.0, "budgeted": true, "approved": true, "remaining_before": 2340.0}
+{"timestamp": "2026-11-23T08:23:43.403585+00:00", "agent": "hotel_worker", "action": "search_hotels", "options": 18}
+{"timestamp": "2026-11-23T08:23:43.403716+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Ez guest house", "cost": 105.0, "budgeted": true, "approved": true, "remaining_before": 237.0}
+{"timestamp": "2026-11-23T08:23:47.639592+00:00", "agent": "activity_worker", "action": "search_interest", "interest": "Culture", "options": 20}
+{"timestamp": "2026-11-23T08:23:48.938855+00:00", "agent": "activity_worker", "action": "search_interest", "interest": "Food", "options": 20}
+{"timestamp": "2026-11-23T08:23:48.939461+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 1, "options": 29}
+{"timestamp": "2026-11-23T08:23:48.939530+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Kinkaku-ji", "cost": null, "budgeted": false, "approved": true, "remaining_before": 132.0}
+{"timestamp": "2026-11-23T08:23:48.939632+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 2, "options": 28}
+{"timestamp": "2026-11-23T08:23:48.939640+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Fushimi Inari Taisha", "cost": null, "budgeted": false, "approved": true, "remaining_before": 132.0}
+{"timestamp": "2026-11-23T08:23:48.939671+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 3, "options": 27}
+{"timestamp": "2026-11-23T08:23:48.939675+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Kyoto Samurai", "cost": null, "budgeted": false, "approved": true, "remaining_before": 132.0}
+{"timestamp": "2026-11-23T08:23:48.939704+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 4, "options": 26}
+{"timestamp": "2026-11-23T08:23:48.939709+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Kiyomizu-dera", "cost": null, "budgeted": false, "approved": true, "remaining_before": 132.0}
+{"timestamp": "2026-11-23T08:23:48.939722+00:00", "agent": "budget_worker", "action": "get_budget_report", "budget": 2500.0, "spent": 2368.0, "remaining": 132.0}
+{"timestamp": "2026-11-23T08:23:48.939842+00:00", "agent": "planner_manager", "action": "itinerary_built", "total": 2368.0}
+{"timestamp": "2026-11-23T09:41:12.013682+00:00", "agent": "planner_manager", "action": "request_accepted", "request": {"origin": "Boston", "origin_airport": "BOS", "destination": "Kyoto", "destination_airport": "KIX", "days": 4, "budget": 2500.0, "interests": ["Culture", "Food"], "travelers": 2, "currency": "USD", "food_budget_per_person_per_day": 5.0, "transport_budget_per_person_per_day": 5.0, "departure_date": "2026-11-30", "return_date": "2026-12-03", "hotel_check_in": "2026-11-30", "hotel_check_out": "2026-12-03"}}
+{"timestamp": "2026-11-23T09:41:12.017851+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2500.0}
+{"timestamp": "2026-11-23T09:41:12.017900+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2490.0}
+{"timestamp": "2026-11-23T09:41:12.017908+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2480.0}
+{"timestamp": "2026-11-23T09:41:12.017912+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2470.0}
+{"timestamp": "2026-11-23T09:41:12.017917+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2460.0}
+{"timestamp": "2026-11-23T09:41:12.017921+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2450.0}
+{"timestamp": "2026-11-23T09:41:12.017926+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Food allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2440.0}
+{"timestamp": "2026-11-23T09:41:12.017931+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Local transport allowance (user estimate)", "cost": 10.0, "budgeted": true, "approved": true, "remaining_before": 2430.0}
+{"timestamp": "2026-11-23T09:41:22.643022+00:00", "agent": "flight_worker", "action": "search_flights", "options": 5}
+{"timestamp": "2026-11-23T09:41:22.643156+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Outbound United BOS to KIX; return Korean Air KIX to BOS", "cost": 2103.0, "budgeted": true, "approved": true, "remaining_before": 2420.0}
+{"timestamp": "2026-11-23T09:41:25.081772+00:00", "agent": "hotel_worker", "action": "search_hotels", "options": 18}
+{"timestamp": "2026-11-23T09:41:25.081865+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Ez guest house", "cost": 105.0, "budgeted": true, "approved": true, "remaining_before": 317.0}
+{"timestamp": "2026-11-23T09:41:26.432300+00:00", "agent": "activity_worker", "action": "search_interest", "interest": "Culture", "options": 20}
+{"timestamp": "2026-11-23T09:41:28.228862+00:00", "agent": "activity_worker", "action": "search_interest", "interest": "Food", "options": 20}
+{"timestamp": "2026-11-23T09:41:28.229087+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 1, "options": 32}
+{"timestamp": "2026-11-23T09:41:28.229180+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Kinkaku-ji", "cost": null, "budgeted": false, "approved": true, "remaining_before": 212.0}
+{"timestamp": "2026-11-23T09:41:28.229336+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 2, "options": 31}
+{"timestamp": "2026-11-23T09:41:28.229350+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Fushimi Inari Taisha", "cost": null, "budgeted": false, "approved": true, "remaining_before": 212.0}
+{"timestamp": "2026-11-23T09:41:28.229438+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 3, "options": 30}
+{"timestamp": "2026-11-23T09:41:28.229449+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Kyoto Samurai", "cost": null, "budgeted": false, "approved": true, "remaining_before": 212.0}
+{"timestamp": "2026-11-23T09:41:28.229537+00:00", "agent": "activity_worker", "action": "suggest_for_day", "day": 4, "options": 29}
+{"timestamp": "2026-11-23T09:41:28.229548+00:00", "agent": "budget_worker", "action": "approve_addition", "item": "Nijō Castle", "cost": null, "budgeted": false, "approved": true, "remaining_before": 212.0}
+{"timestamp": "2026-11-23T09:41:28.229577+00:00", "agent": "budget_worker", "action": "get_budget_report", "budget": 2500.0, "spent": 2288.0, "remaining": 212.0}
+{"timestamp": "2026-11-23T09:41:28.229629+00:00", "agent": "planner_manager", "action": "itinerary_built", "total": 2288.0}
